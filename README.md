@@ -9,7 +9,9 @@ Pursue your dreams! Always working!
 ## Installation
 - Clone the repository
 - Install requirements
-	$ pip install -r requirements.txt
+	```
+	pip install -r requirements.txt
+	```
 
 ## How to use
 
