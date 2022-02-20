@@ -1,4 +1,5 @@
 import mouse
+import keyboard
 import time
 from loguru import logger
 
@@ -13,5 +14,7 @@ while( True ):
 	time.sleep(240)
 	counter = counter + 1
 	logger.debug("Iteration # : " + str(counter) )
-
+	if keyboard.is_pressed('x'):
+		logger.debug("Closing AlwaysWorking, have a nice day!")
+		break
 
