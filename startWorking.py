@@ -4,7 +4,7 @@ import time
 from loguru import logger
 
 logger.info("Let's work!")
-logger.info("Work server started")
+logger.info("Work server started - Press Ctrl + C to interrupt")
 
 counter = 0
 
@@ -14,7 +14,5 @@ while( True ):
 	time.sleep(240)
 	counter = counter + 1
 	logger.debug("Iteration # : " + str(counter) )
-	if keyboard.is_pressed('x'):
-		logger.debug("Closing AlwaysWorking, have a nice day!")
-		break
+
 

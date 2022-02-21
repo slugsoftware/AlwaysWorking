@@ -8,14 +8,26 @@ Pursue your dreams! Always working!
 
 ## Installation
 - Clone the repository
+	```
+	git clone https://github.com/slugsoftware/AlwaysWorking.git
+	```
 - Install requirements
 	```
 	pip install -r requirements.txt
 	```
 
 ## How to use
+```
+cd AlwaysWorking
+python3 startworking.py
+```
 
 ## Version roadmap
 -v0.1
 	- Move the mouse cursor 1 px each 4 minutes
 -1.0 - MVP
+
+## To-Do list
+- Dockerize the app, make the installation and running process very easy
+- Optimize code including an exit procedure
+- Is there any functionality you miss? Open an issue!
