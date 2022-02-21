@@ -23,9 +23,9 @@ python3 startworking.py
 ```
 
 ## Version roadmap
--v0.1
+- v0.1
 	- Move the mouse cursor 1 px each 4 minutes
--1.0 - MVP
+- 1.0 - MVP
 
 ## To-Do list
 - Dockerize the app, make the installation and running process very easy
